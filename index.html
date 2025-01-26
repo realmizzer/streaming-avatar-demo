@@ -52,6 +52,16 @@ a<!DOCTYPE html>
       />
       <button id="speakButton" role="button">Speak</button>
     </section>
+
+    <div class="chat-modes" role="group">
+      <button id="textModeBtn" class="active">Text Mode</button>
+      <button id="voiceModeBtn" disabled>Voice Mode</button>
+    </div>
+
+    <!-- Add voice mode controls section -->
+    <section id="voiceModeControls" role="group" style="display: none">
+      <div id="voiceStatus"></div>
+    </section>
   </section>
 </main>
 
